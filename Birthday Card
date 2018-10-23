@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.poojagujral.birthdayknocking.MainActivity">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerCrop"
+       android:src="@drawable/pooja"
+       android:id="@+id/pooja"
+       />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/abhi"
+        android:id="@+id/abhinav"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:hint="To"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/from"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:hint="FROM"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginVertical="300dp"
+        android:onClick="create"
+        android:text="CREATE"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/text1"
+        android:text="15 DAYS TO GO!"
+        android:textSize="50dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/text2"
+        android:text="TO ABHINAV"
+        android:textSize="35dp"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="10dp"/>>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/text3"
+        android:text="FROM POOJA"
+        android:textSize="35dp"
+        android:textColor="#FF00FF"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="150dp"/>
+
+
+</RelativeLayout>
