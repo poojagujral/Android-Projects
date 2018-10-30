@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.poojagujral.fitnesstracker3.MainActivity">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:text="BMI Calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:hint="BMI Calculator"
+        android:textColor="#FF0000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:text="By Pooja and Apoorva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="530dp"
+        android:hint="By:- Pooja and Apoorva"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+
+        />
+
+
+
+    <TextView
+        android:text="WEIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="190dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="210dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:text="HEIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="285dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="310dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:onClick="calculateBMI"
+        android:text="Calculate"
+        tools:ignore="OnClick"
+        android:layout_marginLeft="140dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="450dp"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>
